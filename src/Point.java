@@ -13,4 +13,13 @@ public class Point {
         this.xCoord = xy;
         this.yCoord = xy;
     }
+
+    @Override
+    public String toString() {  //classın ene altına yazılır.
+
+        return "Point{" +
+                "xCoord=" + xCoord +
+                ", yCoord=" + yCoord +
+                '}';
+    }
 }
